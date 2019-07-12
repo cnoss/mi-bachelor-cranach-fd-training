@@ -342,7 +342,7 @@ textarea {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local("Roboto"), url(/assets/fonts/Roboto/Robfsoto-Regular.ttf); }
+  src: local("Roboto"), url(/assets/fonts/Roboto/Roboto-Regular.ttf); }
 
 @font-face {
   font-family: 'Roboto';
@@ -356,7 +356,7 @@ html,
 body {
   background-color: #333333;
   padding: 0.8rem;
-  font-family: "Roboto-light";
+  font-family: "Roboto-light", sans-serif;
   color: #B4B4B4; }
 
 main {
@@ -760,7 +760,7 @@ textarea {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local("Roboto"), url(/assets/fonts/Roboto/Robfsoto-Regular.ttf); }
+  src: local("Roboto"), url(/assets/fonts/Roboto/Roboto-Regular.ttf); }
 
 @font-face {
   font-family: 'Roboto';
@@ -774,7 +774,7 @@ html,
 body {
   background-color: #333333;
   padding: 0.8rem;
-  font-family: "Roboto-light";
+  font-family: "Roboto-light", sans-serif;
   color: #B4B4B4; }
 
 main {
@@ -839,6 +839,27 @@ h3 {
   font-size: 1.3rem;
   padding-bottom: 1.3rem; }
 
+.o-image-description {
+  padding: 0;
+  margin: 0; }
+  .o-image-description h2 {
+    margin-bottom: 3.4rem; }
+  .o-image-description dl.rootdata {
+    margin-bottom: 3.4rem; }
+    .o-image-description dl.rootdata dt {
+      display: block;
+      min-width: 0.8rem;
+      padding-top: 0.8rem;
+      color: #FFFFFF; }
+      .o-image-description dl.rootdata dt::after {
+        content: ":";
+        display: inline-block;
+        padding-right: 0.5rem; }
+    .o-image-description dl.rootdata dd {
+      border-bottom: solid 1px #666666;
+      padding-bottom: 0.8rem;
+      margin-left: 0; }
+
 .m-image-with-caption > img {
   width: 100%; }
 
@@ -861,26 +882,18 @@ h3 {
     .m-card-image-with-caption > figcaption > .additional-info {
       display: none; }
 
-.o-image-description {
-  padding: 0;
-  margin: 0; }
-  .o-image-description h2 {
-    margin-bottom: 3.4rem; }
-  .o-image-description dl.rootdata {
-    margin-bottom: 3.4rem; }
-    .o-image-description dl.rootdata dt {
-      display: block;
-      min-width: 0.8rem;
-      padding-top: 0.8rem;
-      color: #FFFFFF; }
-      .o-image-description dl.rootdata dt::after {
-        content: ":";
-        display: inline-block;
-        padding-right: 0.5rem; }
-    .o-image-description dl.rootdata dd {
-      border-bottom: solid 1px #666666;
-      padding-bottom: 0.8rem;
-      margin-left: 0; }
+.m-navigationBar {
+  position: fixed;
+  background: #666666;
+  left: 0;
+  right: 0;
+  top: 0;
+  list-style: none;
+  z-index: 10;
+  padding: 20px; }
+  .m-navigationBar .flexbox {
+    display: flex;
+    justify-content: space-between; }
 
 .m-pl-code {
   background-color: #dddddd; }

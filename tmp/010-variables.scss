@@ -44,7 +44,7 @@ $xxl: $bfs * 5.5;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto'), url(/assets/fonts/Roboto/Robfsoto-Regular.ttf);
+  src: local('Roboto'), url(/assets/fonts/Roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
@@ -54,7 +54,7 @@ $xxl: $bfs * 5.5;
   src: local('Roboto'), url(/assets/fonts/Roboto/Roboto-Bold.ttf);
 }
 
-$font-sans-serif: "Roboto-light";
+$font-sans-serif: "Roboto-light", sans-serif;
 
 
 
