@@ -897,7 +897,8 @@ h3 {
 
 .s-cda-header nav li {
   list-style: none;
-  margin: 1.3rem 1.3rem 3.4rem 0; }
+  margin: 1.3rem 1.3rem 3.4rem 0;
+  font-size: 1.3rem; }
 
 .s-cda-header a.logo {
   font-weight: 100;
