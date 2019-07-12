@@ -2,11 +2,13 @@
 
   nav{
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: $l;
   }
 
   nav li {
     list-style: none; 
-    margin: $m $m $xl 0;
+    margin: $s $s $s 0;
     font-size: $m;
   }
 
