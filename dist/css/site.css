@@ -342,7 +342,7 @@ textarea {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local("Roboto"), url(/assets/fonts/Roboto/Robfsoto-Regular.ttf); }
+  src: local("Roboto"), url(/assets/fonts/Roboto/Roboto-Light.ttf); }
 
 @font-face {
   font-family: 'Roboto';
@@ -385,6 +385,12 @@ h2 {
 h3 {
   font-size: 1.3rem; }
 
+html {
+  padding: 0; }
+
+.page {
+  margin-top: 4rem; }
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -416,6 +422,29 @@ h3 {
 
 .helper-more-vspace {
   margin-bottom: 2.1rem; }
+
+nav {
+  position: fixed;
+  height: 4rem;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #333333;
+  z-index: 1000;
+  border-bottom: 1px solid #111111; }
+  nav ul {
+    list-style: none;
+    padding-left: 0.8rem; }
+    nav ul li {
+      float: left;
+      line-height: 4rem;
+      margin-right: .5rem; }
+      nav ul li:last-child {
+        margin-right: 0; }
+      nav ul li a {
+        color: #FFCC00;
+        text-decoration: none;
+        font-weight: 900; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
@@ -760,7 +789,7 @@ textarea {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local("Roboto"), url(/assets/fonts/Roboto/Robfsoto-Regular.ttf); }
+  src: local("Roboto"), url(/assets/fonts/Roboto/Roboto-Light.ttf); }
 
 @font-face {
   font-family: 'Roboto';
@@ -803,6 +832,12 @@ h2 {
 h3 {
   font-size: 1.3rem; }
 
+html {
+  padding: 0; }
+
+.page {
+  margin-top: 4rem; }
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -835,12 +870,32 @@ h3 {
 .helper-more-vspace {
   margin-bottom: 2.1rem; }
 
+nav {
+  position: fixed;
+  height: 4rem;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #333333;
+  z-index: 1000;
+  border-bottom: 1px solid #111111; }
+  nav ul {
+    list-style: none;
+    padding-left: 0.8rem; }
+    nav ul li {
+      float: left;
+      line-height: 4rem;
+      margin-right: .5rem; }
+      nav ul li:last-child {
+        margin-right: 0; }
+      nav ul li a {
+        color: #FFCC00;
+        text-decoration: none;
+        font-weight: 900; }
+
 .m-herotext {
   font-size: 1.3rem;
   padding-bottom: 1.3rem; }
-
-.m-image-with-caption > img {
-  width: 100%; }
 
 .m-card-image-with-caption {
   border-radius: 0.5rem;
@@ -860,6 +915,12 @@ h3 {
     padding-bottom: 0.5rem; }
     .m-card-image-with-caption > figcaption > .additional-info {
       display: none; }
+
+.m-image-with-caption > img {
+  width: 100%; }
+
+.m-pl-code {
+  background-color: #dddddd; }
 
 .o-image-description {
   padding: 0;
@@ -882,16 +943,6 @@ h3 {
       padding-bottom: 0.8rem;
       margin-left: 0; }
 
-.m-pl-code {
-  background-color: #dddddd; }
-
-.s-cda-footer {
-  border-top: solid #666666 1px;
-  padding-top: 1.3rem; }
-  .s-cda-footer a {
-    text-decoration: none;
-    color: #FFFFFF; }
-
 .s-cda-header a.logo {
   font-weight: 100;
   text-decoration: none;
@@ -899,5 +950,12 @@ h3 {
   border-bottom: solid 1px #666666;
   padding-bottom: 2.1rem;
   margin-bottom: 3.4rem; }
+
+.s-cda-footer {
+  border-top: solid #666666 1px;
+  padding-top: 1.3rem; }
+  .s-cda-footer a {
+    text-decoration: none;
+    color: #FFFFFF; }
 
 /*# sourceMappingURL=site.css.map */

@@ -1,3 +1,4 @@
+$darkist:  #111111;
 $darker:  #333333;
 $dark:    #666666;
 $light:   #B4B4B4;
@@ -44,7 +45,7 @@ $xxl: $bfs * 5.5;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto'), url(/assets/fonts/Roboto/Robfsoto-Regular.ttf);
+  src: local('Roboto'), url(/assets/fonts/Roboto/Roboto-Light.ttf);
 }
 
 @font-face {

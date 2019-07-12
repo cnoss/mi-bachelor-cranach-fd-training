@@ -1,0 +1,27 @@
+nav {
+    position: fixed;
+    height: 4rem;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: $darker;
+    z-index: 1000;
+    border-bottom: 1px solid $darkist;
+    ul {
+        list-style: none;
+        padding-left: 0.8rem;
+        li {
+            float: left;
+            line-height: 4rem;
+            margin-right: .5rem;
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                color: $accent;
+                text-decoration: none;
+                font-weight: 900;
+            }
+        }
+    }
+}
