@@ -835,32 +835,6 @@ h3 {
 .helper-more-vspace {
   margin-bottom: 2.1rem; }
 
-.m-herotext {
-  font-size: 1.3rem;
-  padding-bottom: 1.3rem; }
-
-.m-image-with-caption > img {
-  width: 100%; }
-
-.m-card-image-with-caption {
-  border-radius: 0.5rem;
-  overflow: hidden;
-  background-color: #000;
-  display: flex;
-  position: relative; }
-  .m-card-image-with-caption > img {
-    width: 100%; }
-  .m-card-image-with-caption > figcaption {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    padding: 1.3rem;
-    padding-top: 3.4rem;
-    padding-bottom: 0.5rem; }
-    .m-card-image-with-caption > figcaption > .additional-info {
-      display: none; }
-
 .o-image-description {
   padding: 0;
   margin: 0; }
@@ -882,6 +856,32 @@ h3 {
       padding-bottom: 0.8rem;
       margin-left: 0; }
 
+.m-herotext {
+  font-size: 1.3rem;
+  padding-bottom: 1.3rem; }
+
+.m-card-image-with-caption {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #000;
+  display: flex;
+  position: relative; }
+  .m-card-image-with-caption > img {
+    width: 100%; }
+  .m-card-image-with-caption > figcaption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 1.3rem;
+    padding-top: 3.4rem;
+    padding-bottom: 0.5rem; }
+    .m-card-image-with-caption > figcaption > .additional-info {
+      display: none; }
+
+.m-image-with-caption > img {
+  width: 100%; }
+
 .m-pl-code {
   background-color: #dddddd; }
 
@@ -899,5 +899,37 @@ h3 {
   border-bottom: solid 1px #666666;
   padding-bottom: 2.1rem;
   margin-bottom: 3.4rem; }
+
+.s-cda-header {
+  /* Change the link color to #111 (black) on hover */
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */ }
+  .s-cda-header ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    background-color: #FFCC00; }
+  .s-cda-header li {
+    float: left; }
+  .s-cda-header li a {
+    display: block;
+    color: #111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+  .s-cda-header li a:hover {
+    background-color: #111;
+    color: white; }
+  .s-cda-header .active {
+    background-color: #4CAF50; }
+  .s-cda-header .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%; }
+  .s-cda-header .sticky + .content {
+    padding-top: 60px; }
 
 /*# sourceMappingURL=site.css.map */
