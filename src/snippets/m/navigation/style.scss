@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    font-size: $m;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: 500;
+  }
+
+  a:hover {
+    color: $accentDark;
+    transition: 0.3s;
+  }
+
+  margin-bottom: $xl;
+}
